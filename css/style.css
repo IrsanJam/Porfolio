@@ -16,6 +16,9 @@ nav {
   margin-top: 60px;
   background-color: var(--main-color);
 }
+.jumbotron p {
+  font-size: 1em;
+}
 hr {
   width: 250px;
   border-top: 3px solid #999;
@@ -49,8 +52,12 @@ footer {
 i {
   color: salmon;
 }
-@media (min-width: 412px) and (max-width: 760px) {
+@media (min-width: 375px) and (max-width: 812px) {
   #about {
-    height: 420px;
+    height: 450px;
+  }
+  #about .container .row p {
+    text-align: justify;
+    margin-bottom: 20px;
   }
 }
