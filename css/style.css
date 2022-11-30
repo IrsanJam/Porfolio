@@ -1,0 +1,56 @@
+:root {
+  --main-color: rgba(6, 224, 42, 0.7);
+}
+body {
+  margin-top: 60px;
+}
+nav {
+  padding: 10px 20px;
+  border: 0px solid !important;
+}
+.jumbotron img {
+  width: 200px;
+  border: 5px solid rgba(248, 176, 43, 0.8);
+}
+.jumbotron {
+  margin-top: 60px;
+  background-color: var(--main-color);
+}
+hr {
+  width: 250px;
+  border-top: 3px solid #999;
+}
+section .porfolio {
+  min-height: 600px;
+}
+.porfolio {
+  padding: 20px;
+  background-color: var(--main-color);
+}
+#kirim {
+  display: flex;
+  margin: auto;
+  width: 100px;
+  justify-content: center;
+}
+#about {
+  height: 300px;
+}
+footer {
+  height: 70px;
+  background-color: black;
+  color: #eee;
+  padding-top: 30px;
+}
+
+.contact {
+  min-height: 800px;
+}
+i {
+  color: salmon;
+}
+@media (min-width: 412px) and (max-width: 760px) {
+  #about {
+    height: 420px;
+  }
+}
