@@ -52,7 +52,7 @@ footer {
 i {
   color: salmon;
 }
-@media (min-width: 375px) and (max-width: 812px) {
+@media (min-width: 325px) and (max-width: 812px) {
   #about {
     height: 450px;
   }
